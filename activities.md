@@ -1,3 +1,5 @@
+# Multiple Activities
+
 ## Set Up Your Project
 For this project, you will be creating an application that uses intents, listeners and multiple activities to navigate between 3 different screens.
 
