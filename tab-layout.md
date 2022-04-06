@@ -1,56 +1,50 @@
-## Try This: Set Up Your Project
-Let's get started by setting up a project for today's lesson.
+## Set Up Your Project
+This application will allow the user to swipe between different tabs. Each tab will contain some information about your favorite animal. 
 
-Our project will allow the user to swipe between different tabs. Each tab will contain information about your favorite animal. 
+Let's get started by setting up the project's resources. 
+
 1. **Create a new project.**
-   For this lesson, your project will need the following settings: 
     - `Activity`: Empty Activity
-    - `Name`: Lesson6TabLayout
-    - `Save location`: ./Desktop/Unit1Projects/Lesson6TabLayout
     - `Language`: Java 
+    
 2. **Insert resources.**
-    Before we get started, your project will need the following resources:
 
-    
-    `drawables`:
-    Import a drawable of your favorite animal. Remember, the file name of your image needs to be all *lowercase*. For this example, we'll use an elephant. 
-    
-    ![elephant](https://user-images.githubusercontent.com/103130916/162013899-3aefa8d4-1281-4823-9d2f-ff936fbcba60.jpeg)
-    
-    `strings.xml:` We'll need a title for each of our tabs, general information about your favorite animal, and a list of facts about your favorite animal. 
-    ``` xml
-    <string name="app_name">Elephant 101</string>
+    - In **drawables**, import an image of your favorite animal. 
 
-    <!-- TAB TITLES -->
-    <string name="general">General</string>
-    <string name="fun_facts">Fun Facts</string>
-    <string name="gallery">Gallery</string>
-
-    <!-- FRAGMENT CONTENT -->
-    <string name = "generalInfo">
-        Elephants are the largest land mammals on earth and have distinctly massive bodies, large ears, and long trunks.
-    </string>
-
-    <string name = "factList">
-        1. Elephants are the world\'s largest land animal. \n
-        2. They have around 150,000 muscles in their trunk. \n
-        3. Elephant tusks are enlarged incisor teeth. \n
-        4. Elephant calves are able to stand within 20 minutes of birth. \n
-        5. Wild elephants can live for up to 60-70 years.
-    </string>
-    ```
+      The file name of your image needs to be all *lowercase*. For this example, we'll use `elephant.jpeg`: 
     
-    `colors.xml`
-    Without deleting the default colors, choose a tab color and a background color for your project. For this example, we'll choose a forest green color for our tabs and a light brown color for our background:
+      <img src = "https://user-images.githubusercontent.com/103130916/162013899-3aefa8d4-1281-4823-9d2f-ff936fbcba60.jpeg" width = "200px">
+    
+    - In **strings.xml**, define a title for each of your tabs, general information about your favorite animal, and a list of facts about your favorite animal. 
+      ``` xml
+      <string name="app_name">Elephant 101</string>
+
+      <!-- TAB TITLES -->
+      <string name="general">General</string>
+      <string name="fun_facts">Fun Facts</string>
+      <string name="gallery">Gallery</string>
+
+      <!-- FRAGMENT CONTENT -->
+      <string name = "generalInfo">
+         Elephants are the largest land mammals on earth and have distinctly massive bodies, large ears, and long trunks.
+      </string>
+
+      <string name = "factList">
+           1. Elephants are the world\'s largest land animal. \n
+           2. They have around 150,000 muscles in their trunk. \n
+           3. Elephant tusks are enlarged incisor teeth. \n
+           4. Elephant calves are able to stand within 20 minutes of birth. \n
+           5. Wild elephants can live for up to 60-70 years.
+      </string>
+      ```
+    
+    In **colors.xml**, choose a tab color and a background color for your project. For this example, we'll choose a forest green for our tabs and a light brown for our background:
     ``` xml
     <color name = "tabColor">#228B22</color>
     <color name = "backgroundColor">#C4A484</color>
     ```
     
-    `themes.xml`
-    To change the title tab of your application, open the **themes.xml** file. 
-    
-    Then, you can replace:
+    In **themes.xml**, change the color of your application's title tab by replacing: 
     ``` xml
     <item name="colorPrimary">@color/purple_500</item>
     ```
@@ -58,22 +52,22 @@ Our project will allow the user to swipe between different tabs. Each tab will c
     ``` xml
     <item name="colorPrimary">@color/tabColor</item>
     ```
+    
 3. Download [CustomAdapter.java](https://drive.google.com/file/d/1SWeWj3ochg7Yt4kQVSQYXPgkgLXgeA0a/view?usp=sharing). 
     Then, insert it into the `./java` folder of your project. 
-    **Note:** Don't change any of the code in this file!
 
 ---
 
-### Try This: Insert a Tab Layout
-Let's try adding a **Tab Layout** widget to our **activity_main** layout. 
-1. Add the **Tab Layout** widget from the *Container* category in your Palette window with the following attributes:
+### Insert a Tab Layout
+1. Add the **Tab Layout** widget from the Palette window with the following attributes:
     -  `id`: tabLayout
     -  `tabIndicatorColor`: @color/tabColor
     -  `tabTextColor`: @color/tabColor
     -  `layout_constraintStart_toStartOf`: parent
     -  `layout_constraintEnd_toEndOf`: parent
     -  `layout_constraintTop_toTopOf`: parent
-2. You'll notice that your tab layout will automatically contain 3 tab items. All we need to do here is revise the attributes for each item: 
+    
+2. You'll notice that your tab layout will automatically contain 3 tab items. All you need to do here is revise the attributes for each item: 
     
     `tabItem`
     - `id`: general
@@ -89,8 +83,8 @@ Let's try adding a **Tab Layout** widget to our **activity_main** layout.
     
 ---
 
-### Try This: Insert 3 Fragments
-We have 3 tabs on our layout. Therefore, we will need 3 fragments. 
+### Insert 3 Fragments
+There are 3 tabs on this layout. Therefore, you will need 3 fragments. 
 1. Select `File` &rarr; `New` &rarr; `Fragment` &rarr; `Fragment (Blank)`. 
 2. The `Fragment Name` will be **GeneralFragment**.
 3. You can delete everything in **GeneralFragment.java**, except for the `onCreateView()` method:
@@ -109,7 +103,7 @@ We have 3 tabs on our layout. Therefore, we will need 3 fragments.
 
 ---
 
-### Try This: Insert a View Pager
+### Insert a View Pager
 Add a **ViewPager2** widget to **activity_main.xml**. 
 Make sure that the widget goes *outside* of the tab layout.
  
@@ -123,8 +117,8 @@ It will need the following attributes:
 
 ---
 
-## Project: My Favorite Animal
-Now that we have all of the resources that we need, let's put it all together!
+## Final Touches
+Now that you have all of the resources, you can put it all together!
 
 First, we'll need to add some widgets to the layouts for each of our fragments. 
 1. In **fragment_general.xml**,
@@ -148,7 +142,7 @@ First, we'll need to add some widgets to the layouts for each of our fragments.
 
 ---
 
-Next, let's connect our view pager to our tab layout. We'll be working in **MainActivity.java**:
+Next, let's connect the view pager to the tab layout. We'll be working in **MainActivity.java**:
 1. **Add Imports.**
     ``` java
     import com.google.android.material.tabs.TabLayout;
@@ -179,7 +173,7 @@ Next, let's connect our view pager to our tab layout. We'll be working in **Main
     ```
 ---
 
-Lastly, we'll need to set a listener for the tabs in our layout. 
+Lastly, set a listener for the tabs in your layout. 
 1. **Add a tab listener to your tab layout.**
     ``` java
     tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
