@@ -12,11 +12,16 @@ Each project take approximately 30 mins - 1 hr to complete.
 ### activities.md
 
 <pre>
-<b>Objective:</b>
+<b>Objective:</b> This project uses intents, listeners, and activities to navigate between a multi-screen application. 
 
 <b>Prerequisites:</b>
+   - Basic knowledge of widgets, constraints, and attributes
+   - Defining and assigning variables
 
 <b>Topics Covered:</b>
+   - Intents
+   - On-Click Listeners
+   - Creating New Activities
 </pre>
 
 ---
