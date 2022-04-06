@@ -1,4 +1,7 @@
 # Favorite Animal
+
+[Download Sample](https://drive.google.com/file/d/1RfvZIAklRRAS7OC_oBorxx2eqODPzTqN/view?usp=sharing)
+
 ## Set Up Your Project
 This application will allow the user to swipe between different tabs. Each tab will contain some information about your favorite animal. 
 
