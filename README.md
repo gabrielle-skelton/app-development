@@ -2,7 +2,7 @@
 
 This repository contains several step-by-step mobile application projects for beginners. 
 
-Each project take approximately 30 mins - 1 hr to complete.
+Each project takes approximately 30 mins - 1 hr to complete.
 
 - **Language:** Java
 - **Tools:** [Android Studio](https://developer.android.com/studio)
@@ -12,7 +12,7 @@ Each project take approximately 30 mins - 1 hr to complete.
 ### activities.md
 
 <pre>
-<b>Objective:</b> This project uses intents, listeners, and activities to navigate between a multi-screen application. 
+<b>Objective:</b> This project uses intents, listeners, and activities to navigate a multi-screen application. 
 
 <b>Prerequisites:</b>
    - Basic knowledge of widgets, constraints, and attributes
