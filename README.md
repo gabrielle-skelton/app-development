@@ -7,6 +7,39 @@ This repository contains several step-by-step projects for beginners in Android 
 - **Storage**: Min. 10GB available to avoid issues with the emulator
 
 ---
+### activities.md
+
+<pre>
+<b>Objective:</b>
+
+<b>Prerequisites:</b>
+
+<b>Topics Covered:</b>
+</pre>
+
+---
+### images-graphics.md
+
+<pre>
+<b>Objective:</b>
+
+<b>Prerequisites:</b>
+
+<b>Topics Covered:</b>
+</pre>
+
+---
+### list-view.md
+
+<pre>
+<b>Objective:</b>
+
+<b>Prerequisites:</b>
+
+<b>Topics Covered:</b>
+</pre>
+
+---
 
 ### tab-layout.md
 
@@ -25,6 +58,4 @@ This repository contains several step-by-step projects for beginners in Android 
    - Tab Layout
    - Tab Listeners    
 </pre>
-
----
 
