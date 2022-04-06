@@ -10,7 +10,6 @@ Each project takes approximately 30 mins - 1 hr to complete.
 
 ---
 ### [Multiple Activities](activities.md)
-[Download Sample](https://drive.google.com/file/d/1tZbFbv9sdQ_nRbTTQrXC3xvVFMz5xNbk/view?usp=sharing)
 
 <pre>
 <b>Objective:</b> This project uses intents, listeners, and activities to navigate a multi-screen application. 
@@ -27,7 +26,6 @@ Each project takes approximately 30 mins - 1 hr to complete.
 
 ---
 ### [Profile Page](images-graphics.md)
-[Download Sample](https://drive.google.com/file/d/1xuu1bbjmEFRa6QSc03K89jQPv6JWVdow/view?usp=sharing)
 
 <pre>
 <b>Objective:</b> This project uses Image Views to display a user's profile page.
@@ -43,7 +41,6 @@ Each project takes approximately 30 mins - 1 hr to complete.
 
 ---
 ### [Travel Destinations](list-view.md)
-[Download Sample](https://drive.google.com/file/d/13sFxDU6z2-kFfvejfSEDqdEYIX3ETCHK/view?usp=sharing)
 
 <pre>
 <b>Objective:</b> This project uses a List View to display a list of countries. 
@@ -62,7 +59,6 @@ Each project takes approximately 30 mins - 1 hr to complete.
 ---
 
 ### [Favorite Animal](tab-layout.md)
-[Download Sample](https://drive.google.com/file/d/1RfvZIAklRRAS7OC_oBorxx2eqODPzTqN/view?usp=sharing)
 
 <pre>
 <b>Objective:</b> This project uses a Tab Layout to display information about a particular animal. 
