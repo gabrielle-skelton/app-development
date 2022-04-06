@@ -28,7 +28,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 ### [Profile Page](images-graphics.md)
 
 <pre>
-<b>Objective:</b> This project uses ImageViews to display a user's profile page.
+<b>Objective:</b> This project uses Image Views to display a user's profile page.
 
 <b>Prerequisites:</b>
    - Basic knowledge of widgets, constraints, and attributes
@@ -43,11 +43,17 @@ Each project takes approximately 30 mins - 1 hr to complete.
 ### [Travel Destinations](list-view.md)
 
 <pre>
-<b>Objective:</b>
+<b>Objective:</b> This project uses a List View to display a list of countries. 
 
 <b>Prerequisites:</b>
+   - Basic knowledge of widgets, constraints, and attributes
+   - Defining and assigning variables
+   - Navigating between activities (Intents)
 
 <b>Topics Covered:</b>
+   - Arrays
+   - ListView widget
+   - Adapters
 </pre>
 
 ---
