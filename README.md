@@ -1,9 +1,11 @@
 # Android App Development Projects
 
-This repository contains several step-by-step projects for beginners in Android Studio. Each project take approximately 30 mins - 1 hr to complete.
+This repository contains several step-by-step mobile application projects for beginners. 
+
+Each project take approximately 30 mins - 1 hr to complete.
 
 - **Language:** Java
-- **Tools:** Android Studio
+- **Tools:** [Android Studio](https://developer.android.com/studio)
 - **Storage**: Min. 10GB available to avoid issues with the emulator
 
 ---
