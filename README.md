@@ -9,7 +9,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 - **Storage**: Min. 10GB available to avoid issues with the emulator
 
 ---
-### [activities.md](activities.md)
+### [Multiple Activities](activities.md)
 
 <pre>
 <b>Objective:</b> This project uses intents, listeners, and activities to navigate a multi-screen application. 
@@ -48,7 +48,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 
 ---
 
-### [tab-layout.md](tab-layout.md)
+### [Favorite Animal](tab-layout.md)
 
 <pre>
 <b>Objective:</b> This project uses a Tab Layout to display information about a particular animal. 
