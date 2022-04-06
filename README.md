@@ -25,7 +25,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 </pre>
 
 ---
-### images-graphics.md
+### [Profile Page](images-graphics.md)
 
 <pre>
 <b>Objective:</b>
@@ -36,7 +36,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 </pre>
 
 ---
-### list-view.md
+### [Travel Destinations](list-view.md)
 
 <pre>
 <b>Objective:</b>
