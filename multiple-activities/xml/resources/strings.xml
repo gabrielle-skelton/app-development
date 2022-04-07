@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lesson3MultiplePages</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="pageOne">Page 1</string>
+    <string name="pageTwo">Page 2</string>
+    <string name="pageThree">Page 3</string>
+</resources>
