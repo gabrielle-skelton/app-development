@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lesson4ProfilePage</string>
+    <string name = "user_name">Cody Stream</string>
+    <string name = "log_out">Log Out</string>
+    <string name = "premium">Premium Account</string>
+    <string name = "bannerContDesc">Profile Banner Image</string>
+    <string name = "profileContDesc">Profile Picture</string>
+    <string name = "settingContDesc">Settings Icon</string>
+</resources>
