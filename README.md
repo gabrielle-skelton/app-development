@@ -5,11 +5,11 @@ This repository contains several step-by-step mobile application projects for be
 Each project takes approximately 30 mins - 1 hr to complete.
 
 - **Language:** Java
-- **Tools:** [Android Studio](https://developer.android.com/studio)
+- **Tools:** [Android Studio](https://developer.android.com/studio), [JDK 18](https://www.oracle.com/java/technologies/downloads/#jdk18-linux)
 - **Storage**: Min. 10GB available to avoid issues with the emulator
 
 ---
-### [Multiple Activities](activities.md)
+### [Multiple Activities](multiple-activities/multiple-activities.md)
 
 <pre>
 <b>Objective:</b> This project uses intents, listeners, and activities to navigate a multi-screen application. 
@@ -25,7 +25,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 </pre>
 
 ---
-### [Profile Page](images-graphics.md)
+### [Profile Page](profile-page/profile-page.md)
 
 <pre>
 <b>Objective:</b> This project uses Image Views to display a user's profile page.
@@ -40,7 +40,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 </pre>
 
 ---
-### [Travel Destinations](list-view.md)
+### [Travel Destinations](travel-destinations/travel-destinations.md)
 
 <pre>
 <b>Objective:</b> This project uses a List View to display a list of countries. 
