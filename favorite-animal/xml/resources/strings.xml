@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Elephant 101</string>
+    <string name="general">General</string>
+    <string name="fun_facts">Fun Facts</string>
+    <string name="gallery">Gallery</string>
+    <string name = "generalInfo">
+        Elephants are the largest land mammals on earth and have distinctly massive bodies, large ears, and long trunks.
+    </string>
+    <string name = "factList">
+        1. Elephants are the world\'s largest land animal. \n
+        2. They have around 150,000 muscles in their trunk. \n
+        3. Elephant tusks are enlarged incisor teeth. \n
+        4. Elephant calves are able to stand within 20 minutes of birth. \n
+        5. Wild elephants can live for up to 60-70 years.
+    </string>
+</resources>
