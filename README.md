@@ -58,7 +58,7 @@ Each project takes approximately 30 mins - 1 hr to complete.
 
 ---
 
-### [Favorite Animal](tab-layout/tab-layout.md)
+### [Favorite Animal](favorite-animal/favorite-animal.md)
 
 <pre>
 <b>Objective:</b> This project uses a Tab Layout to display information about a particular animal. 
