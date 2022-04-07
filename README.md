@@ -9,6 +9,26 @@ Each project takes approximately 30 mins - 1 hr to complete.
 - **Storage**: Min. 10GB available to avoid issues with the emulator
 
 ---
+
+### [Favorite Animal](favorite-animal/favorite-animal.md)
+
+<pre>
+<b>Objective:</b> This project uses a Tab Layout to display information about a particular animal. 
+    
+<b>Prerequisites</b>:
+   - Basic knowledge of widgets, constraints, and attributes
+   - Basic understanding of objects and classes
+   - Defining and assigning variables
+   - Importing images
+    
+<b>Topics Covered</b>:
+   - View Pager
+   - Fragments
+   - Tab Layout
+   - Tab Listeners    
+</pre>
+
+---
 ### [Multiple Activities](multiple-activities/multiple-activities.md)
 
 <pre>
@@ -54,25 +74,5 @@ Each project takes approximately 30 mins - 1 hr to complete.
    - Arrays
    - ListView widget
    - Adapters
-</pre>
-
----
-
-### [Favorite Animal](favorite-animal/favorite-animal.md)
-
-<pre>
-<b>Objective:</b> This project uses a Tab Layout to display information about a particular animal. 
-    
-<b>Prerequisites</b>:
-   - Basic knowledge of widgets, constraints, and attributes
-   - Basic understanding of objects and classes
-   - Defining and assigning variables
-   - Importing images
-    
-<b>Topics Covered</b>:
-   - View Pager
-   - Fragments
-   - Tab Layout
-   - Tab Listeners    
 </pre>
 
